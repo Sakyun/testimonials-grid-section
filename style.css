@@ -85,6 +85,15 @@ body {
 
 .moderate-violet {
     background-color: var(--moderate-violet);
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 1.5rem);
+}
+/* 1024px breakpoint */
+@media screen and (min-width: 64rem) {
+    .moderate-violet {
+        background-position-x: calc(80%);
+    }
 }
 
 .text-white {
